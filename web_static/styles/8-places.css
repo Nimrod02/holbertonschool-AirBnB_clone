@@ -3,20 +3,31 @@ h1 {
   text-align: left;
 }
 
-h2 {
-  font-size: 30px;
-}
-
 .article_container {
   text-align: center;
   display: flex;
+  flex: auto;
+  padding: 20Px;
+  margin: 2Opx;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.places {
+  text-align: center;
+}
+
+.places h2 {
+  text-align: center;
+  font-size: 30px;
 }
 
 .places article {
   width: 390px;
-  border: 1px solid #ff5a5f;
+  padding: 20px;
+  margin: 20px;
+  border: #ff5a5f 1px solid;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -71,9 +82,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: top;
   width: 100px;
-  height: 60px;
+  height: 80px;
   justify-content: center;
-  padding: 0px;
 }
 
 .number_rooms {
@@ -81,9 +91,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: top;
   width: 100px;
-  height: 60px;
+  height: 80px;
   justify-content: center;
-  padding: 0px;
 }
 
 .number_bathrooms {
@@ -91,16 +100,34 @@ h2 {
   background-repeat: no-repeat;
   background-position: top;
   width: 100px;
-  height: 70px;
+  height: 80px;
   justify-content: center;
-  padding: 0px;
 }
 
 .user {
   text-align: left;
   font-weight: bold;
+  line-height: 40px;
 }
 
 .description {
   text-align: left;
 }
+
+.number_bathrooms p {
+        padding-top: 40px;
+}
+
+.number_rooms p {
+        padding-top: 40px;
+}
+
+.max_guests p {
+        padding-top: 40px;
+}
+
+.user span{
+        font-weight: 400;
+}
+
+
